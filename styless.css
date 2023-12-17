@@ -1,0 +1,253 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #555;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .gender-section {
+  margin-bottom: 20px;
+}
+
+.gender-section label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.gender-section input[type="radio"] {
+  display: none;
+}
+
+.gender-section input[type="radio"] + label {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.gender-section input[type="radio"]:checked + label {
+  background-color: #fad0c4;
+  color: #fff;
+}
+
+  .hobby-section {
+    margin-bottom: 20px;
+  }
+  
+  .hobby-section label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .hobby-section input[type="checkbox"] {
+    display: none;
+  }
+  
+  .hobby-section input[type="checkbox"] + label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .hobby-section input[type="checkbox"]:checked + label {
+    background-color: #fad0c4;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="radio"],
+  input[type="checkbox"],
+  input[type="submit"] {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="text"]:focus,
+  input[type="radio"]:focus,
+  input[type="checkbox"]:focus {
+    outline: none;
+    background-color: #eaeaea;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  input[type="checkbox"] + label {
+    display: inline;
+    margin-bottom: 0;
+    font-weight: normal;
+  }
+  
+  input[type="submit"] {
+    background-color:#fad0c4;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #fad0c4;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  
+  table td:last-child {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .state-section {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .state-section h2 {
+    color: #333;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .state-section p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin-top: 30px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+ 
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    
+    input[type="text"],
+    input[type="radio"],
+    input[type="checkbox"],
+    input[type="submit"] {
+      padding: 10px;
+      font-size: 14px;
+    }
+    
+    table th, table td {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
+  /* Warna-warni */
+  h2 {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  input[type="submit"] {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #fff;
+  }
+  
+  table th {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+  }
+  
+  .state-section {
+    background: linear-gradient(to right, #a18cd1, #fbc2eb);
+  }
+   
